@@ -30,7 +30,6 @@ before_install:
   - node unitejs/cli/bin/unite generate --type=component --name=MyComponent --outputDirectory=./app
   - node unitejs/cli/bin/unite generate --type=enum --name=MyEnum --outputDirectory=./app
   - node unitejs/cli/bin/unite generate --type=interface --name=MyInterface --outputDirectory=./app
-  - node unitejs/cli/bin/unite generate --type=interface --name=MyInterface --outputDirectory=./app
   - node unitejs/cli/bin/unite platform --operation=add --platformName=Cordova --outputDirectory=./app
   - node unitejs/cli/bin/unite platform --operation=add --platformName=Docker --outputDirectory=./app
   - node unitejs/cli/bin/unite platform --operation=add --platformName=Electron --outputDirectory=./app
